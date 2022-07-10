@@ -1,0 +1,14 @@
+{
+    "Login": {
+        "EmailInput":"input[id='email']",
+        "PasswordInput":"input[id='password']",
+        "Submit":"button[class='btn btn-custom']"
+    },
+
+    "Header": {
+        "loginBtn" : "a[href='/login']",
+        "logoutBtn" : "//a[contains(text(),'Logout')]"
+
+    }
+
+}
