@@ -7,8 +7,9 @@
 
     "Header": {
         "loginBtn" : "a[href='/login']",
-        "logoutBtn" : "//a[contains(text(),'Logout')]"
-
+        "logoutBtn" : ".ml-auto > :nth-child(3) > .nav-link",
+        "registerBtn" : "a[href='/register']"
     }
 
 }
+

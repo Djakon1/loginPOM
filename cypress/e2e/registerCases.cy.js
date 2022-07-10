@@ -60,9 +60,9 @@ let userData ={
     })
     
     it('different password', () => {
-        cy.get('#first-name').type('sale')
-        cy.get('#last-name').type('sale')
-        cy.get('#email').type('sale12221@gmail.com')
+        cy.get('#first-name').type(userData.userFirstName)
+        cy.get('#last-name').type(userData.userLastName)
+        cy.get('#email').type(userData.userEmail)
         cy.get('#password').type(userData.userPassword)
         cy.get('#password-confirmation').type(userData.userPassword)
         cy.get('[type="checkbox"]').check()
